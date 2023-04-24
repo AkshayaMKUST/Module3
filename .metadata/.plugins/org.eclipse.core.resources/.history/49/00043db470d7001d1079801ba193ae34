@@ -1,0 +1,17 @@
+package com.ust.ioc;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+
+public class TestLogin {
+
+	public static void main(String[] args) {
+//		Login login= new Login();
+//		login.setUsername("John Doe");
+//		login.setPassword("WinnyMinny");
+//		String result=login.validate();
+//		System.out.println(result);
+		
+		BeanFactory factory=new XmlBeanFactory(new FileSystemResource("beans.xml"));
+	}
+}

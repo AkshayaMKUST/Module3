@@ -1,0 +1,12 @@
+package com.ust.ioc;
+
+public class TestLogin {
+
+	public static void main(String[] args) {
+		Login login= new Login();
+		login.setUsername("John Doe");
+		login.setPassword("WinnyMinny");
+		String result=login.validate();
+		System.out.println(result);
+	}
+}

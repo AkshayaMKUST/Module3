@@ -1,0 +1,8 @@
+package com.ust.ioc;
+
+public class Login {
+	
+	private String username;
+	private String password;
+
+}
